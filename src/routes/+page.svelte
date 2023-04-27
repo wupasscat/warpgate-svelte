@@ -1,6 +1,7 @@
 <script lang="ts">
   import { AccordionItem, Accordion, Card } from 'flowbite-svelte'
-  import Icon from '@iconify/svelte';
+  import Icon from '@iconify/svelte'
+  import World from '$lib/World.svelte'
 
   export let data
 </script>
@@ -27,6 +28,8 @@
     </div>
   </div>
 </div>
+
+<World />
 
 <style lang="postcss">
   /* :global(html) {

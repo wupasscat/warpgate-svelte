@@ -6,8 +6,8 @@ export const load = async ({ fetch }) => {
         if (!response.ok) {
             throw new Error(`HTTP error: ${response.status}`)
         }
-        const emerald = await response.json()
-        return emerald
+        const world = await response.json()
+        return world
     } 
     catch (error) {
         console.error(error)
